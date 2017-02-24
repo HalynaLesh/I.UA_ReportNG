@@ -6,7 +6,7 @@ in POM.xml :
 </suiteXmlFiles> -->
 </configuration>
 
-mvn clean test -Dbrowser=chrome -DtestNG="testNG" site
+mvn clean test -Dbrowser=chrome -DtestNG="testNG"
 
 SQL:
 admin | password
