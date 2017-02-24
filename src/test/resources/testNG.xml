@@ -7,14 +7,14 @@
 		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
 		<listener class-name="eleks.com.util.CustomListener" />
 	</listeners>
-	<parameter name="browser" value="firefox" />
+	<!-- <parameter name="browser" value="firefox" />-->
 
 	<test name="MainPage">
 		<classes>
 			<class name="eleks.com.pages_tests.MainPage_Test" />
 		</classes>
 	</test>
-	<test name="MainBoxPage">
+	<!-- <test name="MainBoxPage">
 		<classes>
 			<class name="eleks.com.pages_tests.MailBoxPage_Test" />
 		</classes>
@@ -34,7 +34,7 @@
 		<classes>
 			<class name="eleks.com.pages_tests.SentEmailsPage_Test" />
 		</classes>
-	</test>
+	</test>-->
 
 
 	<!-- <parameter name="browser" value="chrome" /> <test name="Test"> <classes> 
