@@ -7,7 +7,7 @@
 		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
 		<listener class-name="eleks.com.util.CustomListener" />
 	</listeners>
-	<parameter name="browser" value="chrome" />
+	<parameter name="browser" value="firefox" />
 
 	<test name="MainPage">
 		<classes>
