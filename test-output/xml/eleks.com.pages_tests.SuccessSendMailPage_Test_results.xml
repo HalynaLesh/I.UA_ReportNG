@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SuccessSendMailPage"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="6,713">
+  <properties />
+  
+  
+            <testcase name="goToMailBoxPage_test" time="6,713" classname="eleks.com.pages_tests.SuccessSendMailPage_Test" />
+      
+</testsuite>

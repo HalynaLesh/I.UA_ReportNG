@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CreateEmailPage"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="5,514">
+  <properties />
+  
+  
+            <testcase name="createEmail_test" time="5,514" classname="eleks.com.pages_tests.CreateEmailPage_Test" />
+      
+</testsuite>

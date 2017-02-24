@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MainBoxPage"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="11,206">
+  <properties />
+  
+  
+            <testcase name="goToCreateEmailPage_test" time="8,602" classname="eleks.com.pages_tests.MailBoxPage_Test" />
+                <testcase name="logout_test" time="2,604" classname="eleks.com.pages_tests.MailBoxPage_Test" />
+      
+</testsuite>

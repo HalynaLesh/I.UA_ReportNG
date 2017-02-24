@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="eleks.com.util.CustomListener"/>
+  </listeners>
+  <test name="MainPage(failed)">
+    <classes>
+      <class name="eleks.com.pages_tests.MailBoxPage_Test">
+        <methods>
+          <include name="setUp"/>
+          <include name="clearCookies"/>
+        </methods>
+      </class> <!-- eleks.com.pages_tests.MailBoxPage_Test -->
+      <class name="eleks.com.pages_tests.MainPage_Test">
+        <methods>
+          <include name="setUp"/>
+          <include name="negative_loginAs_test"/>
+          <include name="clearCookies"/>
+        </methods>
+      </class> <!-- eleks.com.pages_tests.MainPage_Test -->
+      <class name="eleks.com.pages_tests.SentEmailsPage_Test">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="clearCookies"/>
+        </methods>
+      </class> <!-- eleks.com.pages_tests.SentEmailsPage_Test -->
+      <class name="eleks.com.pages_tests.CreateEmailPage_Test">
+        <methods>
+          <include name="setUp"/>
+          <include name="clearCookies"/>
+        </methods>
+      </class> <!-- eleks.com.pages_tests.CreateEmailPage_Test -->
+      <class name="eleks.com.pages_tests.SuccessSendMailPage_Test">
+        <methods>
+          <include name="setUp"/>
+          <include name="clearCookies"/>
+        </methods>
+      </class> <!-- eleks.com.pages_tests.SuccessSendMailPage_Test -->
+    </classes>
+  </test> <!-- MainPage(failed) -->
+  <test name="SentEmailsPage(failed)">
+    <classes>
+      <class name="eleks.com.pages_tests.MailBoxPage_Test">
+        <methods>
+          <include name="setUp"/>
+          <include name="clearCookies"/>
+        </methods>
+      </class> <!-- eleks.com.pages_tests.MailBoxPage_Test -->
+      <class name="eleks.com.pages_tests.MainPage_Test">
+        <methods>
+          <include name="setUp"/>
+          <include name="clearCookies"/>
+        </methods>
+      </class> <!-- eleks.com.pages_tests.MainPage_Test -->
+      <class name="eleks.com.pages_tests.SentEmailsPage_Test">
+        <methods>
+          <include name="setUp"/>
+          <include name="positive_verifyBody_test"/>
+          <include name="tearDown"/>
+          <include name="negative_verifyBody_test"/>
+          <include name="negative_verifySubject_test"/>
+          <include name="clearCookies"/>
+        </methods>
+      </class> <!-- eleks.com.pages_tests.SentEmailsPage_Test -->
+      <class name="eleks.com.pages_tests.CreateEmailPage_Test">
+        <methods>
+          <include name="setUp"/>
+          <include name="clearCookies"/>
+        </methods>
+      </class> <!-- eleks.com.pages_tests.CreateEmailPage_Test -->
+      <class name="eleks.com.pages_tests.SuccessSendMailPage_Test">
+        <methods>
+          <include name="setUp"/>
+          <include name="clearCookies"/>
+        </methods>
+      </class> <!-- eleks.com.pages_tests.SuccessSendMailPage_Test -->
+    </classes>
+  </test> <!-- SentEmailsPage(failed) -->
+</suite> <!-- Failed suite [Suite] -->
